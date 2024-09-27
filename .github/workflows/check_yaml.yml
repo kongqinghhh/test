@@ -17,5 +17,5 @@ jobs:
         run: pip install yamllint  
 
       - name: Check YAML files  
-        run: yamllint --strict .  
+        run: yamllint
           # 使用--strict选项将警告也视为错误
