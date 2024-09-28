@@ -15,7 +15,7 @@ jobs:
     # 作业中的步骤  
     steps:  
       # 第一步：检出仓库代码  
-      - name: Checkout  
+- name: Checkout  
         uses: actions/checkout@v2  
   
       # 第二步：打印一条消息  
