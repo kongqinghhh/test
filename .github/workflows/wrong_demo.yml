@@ -17,7 +17,10 @@ runs-on: ubuntu-latest
       # 第一步：检出仓库代码  
       - name: Checkout  
         uses: actions/checkout@v2  
-  
+
+      - name: Yamllint Github Action
+        uses: karancode/yamllint-github-action@v2.1.1
+            
       # 第二步：打印一条消息  
       - name: Print a greeting  
         run: |  
