@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code  
         uses: actions/checkout@v2  
   
-      - name: Run yamllint  
+      - name: yamllint  
         uses: nosborn/github-action-yamllint@v1 # 请注意，版本号可能会更新，请检查最新的可用版本  
         with:  
           file_or_dir: '.' # 检查当前目录下的所有文件  
@@ -20,3 +20,5 @@ jobs:
           # config_file: .yamllint.yml  
           # 如果你想要yamllint在发现警告时也失败（返回非零退出码），可以设置strict为true  
           # strict: true
+    
+          
