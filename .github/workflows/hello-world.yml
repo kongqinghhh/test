@@ -1,4 +1,4 @@
-#name: Hello World  
+name: Hello World  
   
 # 触发这个工作流的事件  
 on:  
@@ -10,7 +10,7 @@ jobs:
   # 这个作业的名称是build  
   build:  
     # 作业运行的环境（这里使用Ubuntu最新稳定版）  
-    runs-on: ubuntu-latest  
+    runs-on: ubuntu-latestee  
   
     # 作业中的步骤  
     steps:  
